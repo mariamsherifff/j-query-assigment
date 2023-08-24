@@ -1,0 +1,231 @@
+.home{
+    background-image: url(../images/1.jpg);
+    width: 100%;
+    height: 660px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    font-size: large;
+
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.home p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{margin-bottom: 80px;
+/* background-color: black; */
+}
+/* sidebar */
+#sideBar{
+    /* background-color: black; */
+    color: white;
+    position:fixed;
+    top: 0;
+    bottom:0;
+    z-index: 999999999;
+    display: flex;
+  
+}
+.sideBar-inner a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+
+}
+.sideBar-inner{
+    background-color: black;
+    padding: 70px 70px;
+    position: relative;
+    padding: 30px 100px 50px 50px;
+}
+.sideBar-inner .x{
+position:absolute;
+top: 0;
+text-decoration: none;
+right: 25px;
+margin-left: 80px;
+
+}
+.open{
+    background-color: transparent;
+    align-self: flex-start;
+    margin: 80% 0;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.sideBar-inner a:hover{
+    color: #dc3545;
+}
+#x{
+    cursor: pointer;
+}
+#x:hover{
+    color: #dc3545;
+}
+/* singerrrrr */
+/* .singer{
+    width: 50%;
+    background-color: blue;
+} */
+.sing{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.singers{
+    background-color:rgba(214, 46, 51 , 0.6) ;
+
+}
+.container{
+    padding-top:80px ;
+    padding-bottom:80px ;
+}
+.paragraph{
+    background-color: #ccc;
+
+}
+/* end page 2 */
+.count{
+    background-image: url(../images/2.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px; 
+}
+.days{
+color: white;
+font-size:30px;
+font-weight: bold;
+border: white solid 1px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+height: 150px;
+font-family: 'Roboto', sans-serif;
+}
+
+/* start contact */
+
+.join{
+
+    font-weight: bolder;
+    font-size: 35px;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.headcon{
+    color: rgb(119, 119, 119);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+
+ .headd p{
+text-align: center;
+}
+.contactinfo h3{
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+
+
+}
+.contactpage .redd{
+    color: #D62E33;
+  
+}
+.contactpage{
+ text-align: center;
+ color: #777
+}
+.contactinfo p{
+    margin-bottom: 60px;
+    text-align: center;
+    color: #777
+}
+.btn{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-top :5px;
+}
+.btn:hover{
+    background-color: #D62E33;
+    color: #fff;
+}
+
+.form-control{
+border-radius: 0%;
+    margin-bottom: 20px;
+ line-height: 1.5;
+ color: #495057;
+ border: 1px solid #ced4da;
+}
+.formm span{ 
+    color: #D62E33;
+  font-size: larger;
+}
+
+
+ form textarea{
+    height: 200px;
+}
+.contactpage{
+    line-height: 40px;
+}
+.iconn{
+    margin-top: 50px;
+}
+.iconn i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color: #777;    
+
+}
+.iconn i:hover{
+    background-color: #D62E33;
+    color: white;
+}
+.fa-envelope{
+    color:#6c757d;
+}
+
